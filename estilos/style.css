@@ -89,6 +89,7 @@ section#background01 {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.616);
 
 }
 
@@ -99,6 +100,7 @@ section#background01 > p {
     padding: 0.5em 0.1em 0.5em 0.5em;
     border-radius: 10px;
     transform: translate(-0.5em);
+    text-shadow: 1px 1px 0px black;
     
 }
 
@@ -109,6 +111,7 @@ section#background02 {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.616);
 }
 
 section#background02 > p {
@@ -117,7 +120,8 @@ section#background02 > p {
     min-width: 30vh;
     padding: 0.5em 0.5em 0.5em 0.5em;
     border-radius: 10px;
-    transform: translate(-0.5em);  
+    transform: translate(-0.5em); 
+    text-shadow: 1px 1px 0px black; 
 }
 
 footer{
